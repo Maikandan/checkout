@@ -25,7 +25,7 @@ function recalculateCart()
   
   /* Calculate totals */
   var tax = subtotal * taxRate;
-  var discount = (subtotal + tax) * 0.05;
+  var discount = 15.00;
   var total = subtotal + tax - discount;
   
   /* Update totals display */
