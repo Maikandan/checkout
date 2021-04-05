@@ -191,6 +191,9 @@ label {
 
 /* Make adjustments for tablet */
 @media screen and (max-width: 650px) {
+  body{
+    padding: 0 0 30px;
+  }
   .shopping-cart {
     margin: 0;
     padding-top: 20px;
