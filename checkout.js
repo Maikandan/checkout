@@ -26,7 +26,7 @@ function recalculateCart()
   /* Calculate totals */
   var tax = subtotal * taxRate;
   var shipping = (subtotal > 0 ? shippingRate : 0);
-  var total = subtotal + tax - discount;
+  var total = subtotal + tax + shipping;
   
   /* Update totals display */
   $('.totals-value').fadeOut(fadeTime, function() {
