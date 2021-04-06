@@ -605,6 +605,7 @@ span.price {
 }
 
 #success {
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
 }
